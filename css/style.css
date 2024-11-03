@@ -207,6 +207,7 @@ main,.advantages,.portfolio,.comments,.tariffs,.blog{
     color: #222;
     font-size: 48px;
     font-weight: 600;
+    line-height: 123.6%;
     text-transform: capitalize;
 }
 
