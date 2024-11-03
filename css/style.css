@@ -217,13 +217,13 @@ main,.advantages,.portfolio,.comments,.tariffs,.blog{
     justify-content: center;
     align-items: center;
 
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(3, 310px);
     grid-template-rows: repeat(2,310px);
     gap: 24px;
 }
 
 .portfolio__item{
-    height: 310px;
+    height: 300px;
 }
 
 .portfolio__item img{
