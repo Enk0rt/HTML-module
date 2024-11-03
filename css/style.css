@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins',sans-serif;
+    color: #222;
+
+    transition: .3s;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1140px;
+}
+body{
+    background: #FAF4F2;
+}
+/*-----------------------HEADER----------------------------*/
+
+header{
+    padding: 100px 30px 0 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-info{
+    width: 509px;
+}
+
+.header-info__title{
+    width: 450px;
+
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 62px;
+}
+
+.header-info__desc{
+    margin-top: 12px;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.header-info__socials{
+    margin-top: 54px;
+
+    display: flex;
+    gap: 16px;
+}
+
+.header-info__socials-item:hover{
+    transform: scale(1.1);
+}
+
+.header-info__buttons{
+    margin-top: 38px;
+
+    display: flex;
+    gap: 30px;
+}
+
+.header-info__btn{
+    width: 152px;
+    height: 55px;
+}
+
+.header-info__btn_send{
+    border-radius: 10px;
+    background: #FF2950;
+
+    color: #F9F9F9;
+    font-size: 18px;
+    font-weight: 500;
+}
+.header-info__btn_send:hover{
+    background: white;
+    border: 1px solid #FF9B70;
+
+    color: rgba(34, 34, 34, 0.50);
+}
+
+.header-info__btn_download{
+    border-radius: 10px;
+    border: 1px solid #FF9B70;
+
+    color: rgba(34, 34, 34, 0.50);
+    font-size: 18px;
+    font-weight: 500;
+}
+.header-info__btn_download:hover{
+    background: #FF2950;
+    border: none;
+    color: #F9F9F9;
+}
+
+.header__avatar{
+    width: 406px;
+    height: 406px;
+}
+
+/*-----------------------ABOUT----------------------------*/
+
+main,.advantages,.portfolio,.comments,.tariffs,.blog{
+    padding-top: 125px;
+}
+
+.about{
+    padding: 62px 32px;
+
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+    border-radius: 35px;
+    background: #FF7315;
+}
+.about__info{
+    width: 558px;
+}
+.about__info-title{
+    color: #F9F9F9;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 62px;
+}
+.about__info-title_h4{
+    margin-top: 20px;
+
+    font-size: 48px;
+}
+.about__info-subtitle{
+    margin-top: 16px;
+
+    color: #F9F9F9;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.about__image{
+    width: 430px;
+    height: 329px;
+}
+
+/*---------------ADVANTAGES---------------------*/
+
+.advantages__title{
+    color: #222;
+    text-align: center;
+
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px;
+}
+
+.advantages__list{
+    margin-top: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advantages__list-item{
+    width: 240px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.advantages__list-img{
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    background: rgba(34, 34, 34, 0.10);;
+}
+
+.advantages__list-title{
+    margin-top: 50px;
+
+    color: #222;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.advantages__list-desc{
+    margin-top: 14px;
+
+    color: rgba(34, 34, 34, 0.50);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/*------------------PORTFOLIO---------------------*/
+.portfolio__title{
+    color: #222;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.portfolio-container{
+    padding: 64px 0 0 0;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(2,310px);
+    gap: 24px;
+}
+
+.portfolio__item{
+    height: 310px;
+}
+
+.portfolio__item img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolio__item:hover{
+    transform: scale(1.1);
+}
+
+/*-----------------COMMENTS----------------------*/
+.comments{
+    margin-top: 125px;
+    padding: 48px 150px 185px 150px;
+    width: 100%;
+    height: 100%;
+
+    background: #FF7315;
+}
+
+.comments__title{
+    margin: 0 auto;
+    width: 609px;
+
+    color: #F9F9F9;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.comments-container{
+    margin-top: 112px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 82px;
+}
+
+.comments__item{
+    padding: 24px 54px;
+    width: 530px;
+    height: 180px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #F9F9F9;
+    border-radius: 30px;
+
+    color: #222;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/*----------------------Tariffs-----------------------*/
+.tariffs__title{
+    text-align: center;
+    color: #222;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 123.6%;
+    text-transform: capitalize;
+}
+
+.tariffs-container{
+    margin-top: 64px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 67px;
+}
+
+.tariffs__card{
+    width: 335px;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0 20px 40px 0 rgba(255, 115, 21, 0.10);
+}
+.tariffs__card:hover{
+    transform: scale(1.1);
+
+}
+.tariffs__card-title{
+    padding: 18px 0;
+    width: 100%;
+
+    text-align: center;
+    color:#F9F9F9;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+    border-radius: 15px 15px 0 0;
+    background: #FF9B70;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.tariffs__card-price{
+    margin-top: 36px;
+
+    color: #2B2B2B;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 123.6%;
+    text-transform: capitalize;
+}
+
+.tariffs__card-price span{
+    color: #2B2B2B;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 15px;
+
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+
+    opacity: 0.5;
+}
+
+.tariffs__card-benefits{
+    margin-top: 28px;
+    padding: 0 48px;
+
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    gap: 16px;
+
+    text-transform: capitalize;
+}
+.tariffs__card-benefits-item{
+    position: relative;
+    margin-left: 42px;
+}
+.tariffs__card-benefits-item::before{
+    content: url("../img/svg/close.svg");
+    position: absolute;
+    left: -42px;
+    width: 24px;
+    height: 24px;
+}
+.tariffs__card-benefits-item_included::before{
+    content: url("../img/svg/check.svg");
+}
+
+.contact{
+    margin-top: 100px;
+    padding: 50px 75px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 25px;
+    background: #FF7315 ;
+}
+
+.contact__title{
+    width: 343px;
+
+    color: #F9F9F9;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 62px;
+}
+
+.contact__btn{
+    margin-right: 25px;
+    width: 259px;
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #222;
+    font-size: 24px;
+    font-weight: 600;
+
+    border-radius: 10px;
+    background: #F9F9F9;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.01);
+}
+
+.contact__btn:hover{
+    transform: scale(1.1);
+    color: #FF7315;
+}
+
+/*--------------------BLOG-------------------------*/
+.blog__title{
+    color: #222;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px;
+}
+
+.blog-container{
+    margin-top: 48px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog__card{
+    padding: 16px;
+
+    width: 270px;
+    height: 364px;
+
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.07);
+}
+.blog__card:hover{
+    transform: scale(1.1);
+}
+
+.blog__card-image{
+    width: 100%;
+    object-fit: cover;
+}
+
+.blog__card-title{
+    margin-top: 24px;
+
+    color: #222;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.blog__card-desc{
+    margin-top: 12px;
+    
+    color: rgba(34, 34, 34, 0.50);
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+/*-------------------------FOOTER-----------------------*/
+
+.copy{
+    margin-top: 125px;
+    height: 170px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #F1F1F1;
+}
+
