@@ -75,7 +75,7 @@ header{
     font-weight: 500;
 }
 .header-info__btn_send:hover{
-    background: white;
+    background: #FAF4F2;
     border: 1px solid #FF9B70;
 
     color: rgba(34, 34, 34, 0.50);
